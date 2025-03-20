@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "lib": ["ES2020", "DOM"],
+    "types": ["jest", "node"],
+    "module": "commonjs"
+    },
+    "include": ["src", "**/*.test.ts", "**/*.test.tsx"]
+  }
+  
